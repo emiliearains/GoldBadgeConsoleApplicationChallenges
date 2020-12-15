@@ -19,6 +19,10 @@ namespace ChallengeOneClassLibrary
             Ingredients = ingredients;
             MealPrice = mealPrice;
         
-        } 
+        }
+        public Menu()
+        {
+            Ingredients = new List<string>();
+        }
     }
 }

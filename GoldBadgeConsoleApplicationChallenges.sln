@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeOneClassLibrary", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeOne", "GoldBadgeConsoleApplicationChallenges\ChallengeOne.csproj", "{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{320678A9-59B3-466D-96CC-E38DE8233F53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeOneUnitTest", "UnitTestProject1\ChallengeOneUnitTest.csproj", "{320678A9-59B3-466D-96CC-E38DE8233F53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
