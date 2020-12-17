@@ -55,6 +55,10 @@
       <Project>{8856f806-f699-4551-b9bd-aab9cbcfd550}</Project>
       <Name>ChallengeOneClassLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ChallengeThreeClassLibrary\ChallengeThreeClassLibrary.csproj">
+      <Project>{e2ca984d-2761-4129-8919-dd42c044ee4a}</Project>
+      <Name>ChallengeThreeClassLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

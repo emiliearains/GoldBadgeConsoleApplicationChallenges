@@ -78,10 +78,6 @@ namespace ChallengeOne
             Console.WriteLine("Enter new meal description:");
             newSubMenuItem.MealDescription = Console.ReadLine();
 
-            ////Should the add ingredients one at a time?
-            //Console.WriteLine("Enter new meal ingredients one at a time.  Enter Q to continue:");
-            //newSubMenuItem.Ingredients.Add(Console.ReadLine());
-
             Console.WriteLine("Enter new meal price:");
             newSubMenuItem.MealPrice = decimal.Parse(Console.ReadLine());
 
