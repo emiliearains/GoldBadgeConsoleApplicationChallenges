@@ -29,9 +29,9 @@ namespace ChallengeSixUnitTest
         [TestMethod]
         public void SubMenuUpdateCar_ShouldReturnTrue()
         {
-            Car updatedCar = _carRepository.GetCarByModel("Civic"); // new Car("Genesis", "G90", 220);
+            Car updatedCar = _carRepository.GetCarByModel("Civic"); 
             updatedCar.Model = "CivicTest";
-
+            _carRepository.UpdateCar("Civic", updatedCar);
             Car testUpdatedCar = _carRepository.GetCarByModel("CivicTest");
             Assert.IsNotNull(testUpdatedCar);
         }

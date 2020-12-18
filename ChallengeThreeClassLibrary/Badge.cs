@@ -15,7 +15,7 @@ namespace ChallengeThreeClassLibrary
         }
         public Badge()
         {
-
+            DoorNames = new List<string>();
         }
         public void AddDoor(string newDoor)
         {
@@ -24,6 +24,15 @@ namespace ChallengeThreeClassLibrary
         public void RemoveDoor(string doorRemoved)
         {
             DoorNames.Remove(doorRemoved);
+        }
+        public string GetFormattedDoorList()
+        {
+            string returnstring = "";
+            foreach (string str in DoorNames)
+            {
+                returnstring = returnstring + str + " ";
+            }
+            return returnstring;
         }
     }
 }
