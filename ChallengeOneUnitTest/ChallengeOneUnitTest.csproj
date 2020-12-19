@@ -60,10 +60,6 @@
       <Project>{8856f806-f699-4551-b9bd-aab9cbcfd550}</Project>
       <Name>ChallengeOneClassLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GoldBadgeConsoleApplicationChallenges\ChallengeOneConsole.csproj">
-      <Project>{7d2629ad-49eb-4a40-94fc-58ad7f4e229c}</Project>
-      <Name>ChallengeOneConsole</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

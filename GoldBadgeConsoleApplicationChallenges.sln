@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChallengeOneClassLibrary", "ChallengeOneClassLibrary\ChallengeOneClassLibrary.csproj", "{8856F806-F699-4551-B9BD-AAB9CBCFD550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeOneConsole", "GoldBadgeConsoleApplicationChallenges\ChallengeOneConsole.csproj", "{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeOneUnitTest", "UnitTestProject1\ChallengeOneUnitTest.csproj", "{320678A9-59B3-466D-96CC-E38DE8233F53}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeSixConsole", "ChallengeSix.Console\ChallengeSixConsole.csproj", "{AC03C52D-C667-49C5-A2B5-F3B48F5AE54A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChallengeSixClassLibrary", "ChallengeSix.ClassLibrary\ChallengeSixClassLibrary.csproj", "{502DBB04-BC4B-4429-B9BB-A3C5969F9E9D}"
@@ -17,9 +13,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeSixUnitTest", "Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeThreeConsole", "ChallengeThreeConsole\ChallengeThreeConsole.csproj", "{5290FE49-D2AB-4E86-AC31-0C36811512B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeThreeClassLibrary", "ChallengeThreeClassLibrary\ChallengeThreeClassLibrary.csproj", "{E2CA984D-2761-4129-8919-DD42C044EE4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChallengeThreeClassLibrary", "ChallengeThreeClassLibrary\ChallengeThreeClassLibrary.csproj", "{E2CA984D-2761-4129-8919-DD42C044EE4A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeThreeUnitTest", "ChallengeThreeUnitTest\ChallengeThreeUnitTest.csproj", "{EB8CE44B-315D-4CAB-A014-14A13ED29D26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeOneUnitTest", "ChallengeOneUnitTest\ChallengeOneUnitTest.csproj", "{320678A9-59B3-466D-96CC-E38DE8233F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeOneConsole", "ChallengeOneConsole\ChallengeOneConsole.csproj", "{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,6 @@ Global
 		{8856F806-F699-4551-B9BD-AAB9CBCFD550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8856F806-F699-4551-B9BD-AAB9CBCFD550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8856F806-F699-4551-B9BD-AAB9CBCFD550}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{320678A9-59B3-466D-96CC-E38DE8233F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{320678A9-59B3-466D-96CC-E38DE8233F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{320678A9-59B3-466D-96CC-E38DE8233F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{320678A9-59B3-466D-96CC-E38DE8233F53}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC03C52D-C667-49C5-A2B5-F3B48F5AE54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC03C52D-C667-49C5-A2B5-F3B48F5AE54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC03C52D-C667-49C5-A2B5-F3B48F5AE54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +55,14 @@ Global
 		{EB8CE44B-315D-4CAB-A014-14A13ED29D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB8CE44B-315D-4CAB-A014-14A13ED29D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB8CE44B-315D-4CAB-A014-14A13ED29D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320678A9-59B3-466D-96CC-E38DE8233F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320678A9-59B3-466D-96CC-E38DE8233F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320678A9-59B3-466D-96CC-E38DE8233F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320678A9-59B3-466D-96CC-E38DE8233F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2629AD-49EB-4A40-94FC-58AD7F4E229C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
